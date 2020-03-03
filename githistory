@@ -1,0 +1,150 @@
+    1  ip -r
+    2  ip r
+    3  systemctl restart network
+    4  ip r
+    5  vi /etc/sysconfig/network-scripts/ifcfg-enp0s3 
+    6  systemctl restart network
+    7  nmtui
+    8  ls
+    9  cd project/
+   10  ls
+   11  cd project1/
+   12  ls
+   13  git ls-files
+   14  ls
+   15  cd ..
+   16  ls
+   17  cd
+   18  ls
+   19  cd pur
+   20  cd project/
+   21  ls
+   22  cd project1/
+   23  ls
+   24  histry
+   25  history
+   26  c
+   27  cd
+   28  mkdir labwork1
+   29  cd labwork1/
+   30  ls
+   31  mkdir labwork2
+   32  ls
+   33  cd labwork2/
+   34  ls
+   35  cd ..
+   36  ls
+   37  cd labwork2/
+   38  git init
+   39  ls
+   40  ls -a
+   41  dc .git/
+   42  ls
+   43  cd .git/
+   44  ls
+   45  cd
+   46  ls
+   47  cd project/
+   48  ls
+   49  ls -a
+   50  cd project1/
+   51  ls
+   52  ls -a
+   53  cd .git/
+   54  ls
+   55  cd
+   56  ls
+   57  cd labwork1/
+   58  ls
+   59  cd labwork2/
+   60  ls -a
+   61  cd .git/
+   62  ls
+   63  cd branches/
+   64  ls
+   65  cd
+   66  cd project/
+   67  ls
+   68  cd project1/
+   69  ls -a
+   70  cd .git/
+   71  ls
+   72  cd branches/
+   73  LS
+   74  ls
+   75  cd
+   76  cd project/
+   77  cd project1/
+   78  git status
+   79  git ls-files
+   80  cat>padmashree.txt
+   81  git status
+   82  history
+   83  git show --oneline
+   84  ls
+   85  git msn
+   86  man git
+   87  git log --oneline
+   88  git log
+   89  ls
+   90  git add padmashree.txt
+   91  ls
+   92  git status
+   93  git ls-files
+   94  git commit -m "This is third commit"
+   95  git status
+   96  git log
+   97  git log --oneline
+   98  ls
+   99  git show 1f7b1ea
+  100  git --version
+  101  vi padmashree.txt 
+  102  git status
+  103  git diff padmashree.txt
+  104  git add padmashree.txt
+  105  git status
+  106  git diff --staged
+  107  git diff --staged padmashree.txt
+  108  git diff padmashree.txt
+  109  git status
+  110  git diff --staged padmashree.txt
+  111  vi padmashree.txt 
+  112  git status
+  113  git add padmashree.txt
+  114  git commit -m "added new content in padmashree.txt"
+  115  git diff
+  116  git diff --staged padmashree.txt
+  117  git log --oneline
+  118  git show 0a6f594
+  119  git rm padmashree.txt
+  120  ls
+  121  git ls-files
+  122  git status
+  123  git commit -m "deleted padmashree.txt"
+  124  git status
+  125  git log --onelone
+  126  git log --oneline
+  127  git revert 4061d2b
+  128  git status
+  129  ls
+  130  git ls-files
+  131  vi log.txt
+  132  git add log.txt
+  133  git commit -m "committing log file"
+  134  git status
+  135  git rm --cached
+  136  git rm --cached log.txt
+  137  ls
+  138  git ls-files
+  139  ls -la
+  140  vi .gitignore
+  141  git status
+  142  git add .gitignore
+  143  git commit -m "created .gitignore file"
+  144  git status
+  145  ls
+  146  git ls-files
+  147  vi log.txt 
+  148  git status
+  149  ls
+  150  history>githistory
